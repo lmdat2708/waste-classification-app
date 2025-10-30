@@ -10,7 +10,7 @@ import numpy as np
 # =================================================================
 
 # Cập nhật danh sách này cho chính xác với dự án của bạn
-CLASS_NAMES = ['cardboard', 'ewaste', 'glass', 'metal', 'organic', 'paper', 'plastic', 'trash']
+CLASS_NAMES = ['cardboard', 'clothes', 'glass', 'metal', 'organic', 'paper', 'plastic', 'trash']
 IMG_SIZE = (224, 224)
 
 def build_model(num_classes):
