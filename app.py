@@ -37,7 +37,7 @@ model = build_model(len(CLASS_NAMES))
 
 # Nạp "linh hồn" (trọng số) đã học vào
 try:
-    model.load_weights('waste_classifier_weights.h5')
+    model.load_weights('waste_classifier.weights.h5')
 except Exception as e:
     st.error(f"Lỗi khi tải trọng số của mô hình: {e}")
     st.stop()
