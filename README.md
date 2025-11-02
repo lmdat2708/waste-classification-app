@@ -29,3 +29,5 @@ Bước 4: Khởi Chạy Ứng Dụng!
 
 Sau khi tất cả các thư viện đã được cài đặt, gõ lệnh sau để khởi chạy ứng dụng Streamlit: streamlit run app.py
 (Nếu lệnh streamlit không được tìm thấy, hãy thử: python -m streamlit run app.py hoặc python3 -m streamlit run app.py)
+
+Công Nghệ Sử Dụng: Python, TensorFlow/Keras, Streamlit, MobileNetV2, ...
